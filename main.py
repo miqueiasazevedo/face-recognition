@@ -6,8 +6,8 @@ xml_haar_cascade = 'haarcascade_frontalface.xml'
 faceClassifier = cv2.CascadeClassifier(xml_haar_cascade)
 
 #Inicia camera
-#capture = cv2.VideoCapture(0)
-capture = cv2.VideoCapture('http://192.168.0.200:8080/video')
+capture = cv2.VideoCapture(0)
+#capture = cv2.VideoCapture('http://192.168.0.200:8080/video')
 
 capture.set(cv2.CAP_PROP_FRAME_WIDTH, 320)
 capture.set(cv2.CAP_PROP_FRAME_HEIGHT, 240)
